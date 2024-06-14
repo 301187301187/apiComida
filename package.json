@@ -1,0 +1,21 @@
+{
+  "name": "apicomidas",
+  "version": "1.0.0",
+  "description": "Api de comida",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vargas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongose": "^0.0.2-security",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
